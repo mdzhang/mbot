@@ -77,7 +77,7 @@ Then you can interact with mbot by typing `mbot help`.
 
 #### Custom scripts
 
-Add custom scripts in [./scripts](../scripts). See [example](../scripts/example.coffee) and [official docs][scripting-docs].
+Add custom scripts in [./scripts](scripts). See [example](scripts/example.coffee) and [official docs][scripting-docs].
 
 [scripting-docs]: https://github.com/github/hubot/blob/master/docs/scripting.md
 

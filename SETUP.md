@@ -11,6 +11,7 @@ Walkthrough of how project was initially setup.
     nodenv rehash
     yo hubot --adapter=slack
     ```
+    
 4. Customize project
     * Update docs
     * Update Procfile
@@ -25,7 +26,7 @@ Walkthrough of how project was initially setup.
 
     heroku config:set HEROKU_URL=$HEROKU_URL -a $HEROKU_APP_NAME
     heroku config:set HUBOT_SLACK_TOKEN=$HUBOT_SLACK_TOKEN -a $HEROKU_APP_NAME
-    
+
     heroku git:remote -a $HEROKU_APP_NAME
     git push heroku master
     ```
