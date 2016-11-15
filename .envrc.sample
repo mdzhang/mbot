@@ -1,0 +1,6 @@
+# From `heroku create`
+export HEROKU_URL=xxxxx
+export HEROKU_APP_NAME=xxxxx
+
+# From Slack hubot integration page
+export HUBOT_SLACK_TOKEN=xxxxx
