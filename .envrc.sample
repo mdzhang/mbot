@@ -4,3 +4,9 @@ export HEROKU_APP_NAME=xxxxx
 
 # From Slack hubot integration page
 export HUBOT_SLACK_TOKEN=xxxxx
+
+# for hubot-heroku-keepalive
+export HUBOT_HEROKU_KEEPALIVE_URL=$HEROKU_URL
+export HUBOT_HEROKU_WAKEUP_TIME=9:00
+export HUBOT_HEROKU_SLEEP_TIME=18:00
+export TZ=America/New_York
